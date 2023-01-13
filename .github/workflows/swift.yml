@@ -17,4 +17,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: xcodebuild build -project SwiftUISample/swiftui-sample.xcodeproj
+      run: |
+        xcodebuild build -project SwiftUISample/swiftui-sample.xcodeproj
